@@ -1,14 +1,13 @@
 @import "./scss/bootstrap";
 @import "./scss/checkbox";
-*{
-    color: #191c3b;
-}
+
 main{
     height: 100vh;
     background: linear-gradient(45deg,#8164d0,#919efd);
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .container{
     display: flex;
@@ -17,4 +16,5 @@ main{
 }
 .card-size{
     width: 500px;
+    color: #191c3b;
 }

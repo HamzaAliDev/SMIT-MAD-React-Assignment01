@@ -3,7 +3,7 @@ import Button from '../../components/Button'
 
 export default function Forget() {
   return (
-    <>
+    <main>
       <div className="container">
         <div className="card card-size p-4">
           <div className="card-body">
@@ -18,6 +18,6 @@ export default function Forget() {
           </div>
         </div>
       </div>
-    </>
+    </main>
   )
 }

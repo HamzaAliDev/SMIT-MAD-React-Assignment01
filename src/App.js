@@ -1,19 +1,20 @@
 import './App.scss';
 import 'bootstrap/dist/js/bootstrap.bundle';
-import Login from "./pages/Auth/Login";
-// import Register from './pages/Auth/Register';
-// import Forget from './pages/Auth/Forget';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { BrowserRouter } from 'react-router-dom'
+
+import Routes from './pages/Routes';
 
 
 function App() {
   return (
     <>
-  <main>
-    {/* <Forget /> */}
-    <Login />
-    {/* <Register /> */}
-    {/* <Button /> */}
-  </main>
+      <ToastContainer />
+      <BrowserRouter>
+      <Routes />
+      </BrowserRouter>
+      
     </>
   );
 }
